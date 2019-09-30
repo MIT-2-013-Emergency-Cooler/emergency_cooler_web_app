@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          2.013 Emergency Cooler
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <text className="App-body">
+        <p>
+          Hello, this is a website. It uses the React architecture.
+          We can do lots of things with this website. Let me know what you think.
+          miske@mit.edu
+        </p>
+      </text>
     </div>
   );
 }
