@@ -1,14 +1,19 @@
 import React from 'react';
+import { Container, Header } from 'semantic-ui-react';
 import './App.css';
+import TopMenu from "./components/TopMenu";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          2.013 Emergency Cooler
-        </p>
-      </header>
+      <TopMenu />
+      <Container text style={{marginTop: '1em', marginBottom: '1em'}}>
+        <Header as='h1' className="App-header">
+          <p>
+            Emergency Cooler
+          </p>
+        </Header>
+      </Container>
       <text className="App-body">
         <p>
           Hello, this is a website. It uses the React architecture.
