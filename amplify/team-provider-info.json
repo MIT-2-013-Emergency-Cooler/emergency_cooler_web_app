@@ -1,14 +1,15 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "emer-cooler-web-app-dev-20190912150159-authRole",
-            "UnauthRoleArn": "arn:aws:iam::713547874290:role/emer-cooler-web-app-dev-20190912150159-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::713547874290:role/emer-cooler-web-app-dev-20190912150159-authRole",
+            "AuthRoleName": "amplify-emer-cooler-web-app-dev-121706-authRole",
+            "UnauthRoleArn": "arn:aws:iam::713547874290:role/amplify-emer-cooler-web-app-dev-121706-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::713547874290:role/amplify-emer-cooler-web-app-dev-121706-authRole",
             "Region": "us-east-1",
-            "DeploymentBucketName": "emer-cooler-web-app-dev-20190912150159-deployment",
-            "UnauthRoleName": "emer-cooler-web-app-dev-20190912150159-unauthRole",
-            "StackName": "emer-cooler-web-app-dev-20190912150159",
-            "StackId": "arn:aws:cloudformation:us-east-1:713547874290:stack/emer-cooler-web-app-dev-20190912150159/c1dd0d80-d58f-11e9-9206-0a79b0f3a14a"
+            "DeploymentBucketName": "amplify-emer-cooler-web-app-dev-121706-deployment",
+            "UnauthRoleName": "amplify-emer-cooler-web-app-dev-121706-unauthRole",
+            "StackName": "amplify-emer-cooler-web-app-dev-121706",
+            "StackId": "arn:aws:cloudformation:us-east-1:713547874290:stack/amplify-emer-cooler-web-app-dev-121706/82f29d10-444d-11ea-a8a9-0e1b8dfea4f7",
+            "AmplifyAppId": "d300v6wxk3w5b1"
         }
     }
 }

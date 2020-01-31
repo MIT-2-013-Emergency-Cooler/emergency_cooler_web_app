@@ -3,7 +3,6 @@
 import React from 'react'
 import { Menu } from 'semantic-ui-react'
 import { Link } from "react-router-dom";
-import logo from '../../src/assets/logo192.png';
 
 function Footer() {
 		return (
