@@ -37,7 +37,7 @@ export default Footer;
 
 const menuStyle = {
 		// HTML lightgray / lightgrey
-		background: '#D3D3D3'
+		background: '#0999a3'
 };
 
 const divStyle = {
