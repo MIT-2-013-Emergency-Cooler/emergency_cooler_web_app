@@ -3,6 +3,7 @@
 import React from 'react';
 import TopMenu from "../components/TopMenu";
 import {Container, Header} from "semantic-ui-react";
+import Footer from "../components/Footer";
 
 function About() {
 	return(
@@ -19,6 +20,7 @@ function About() {
 					The VTC is a Cryocooler.
 				</p>
 			</Container>
+			<Footer/>
 		</div>
 	);
 }

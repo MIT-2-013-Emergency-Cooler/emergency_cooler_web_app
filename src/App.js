@@ -2,6 +2,7 @@ import React from 'react';
 import { Container, Header } from 'semantic-ui-react';
 import './App.css';
 import TopMenu from "./components/TopMenu";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           </p>
         </text>
       </Container>
+      <Footer />
     </div>
   );
 }
