@@ -5,24 +5,33 @@ import TopMenu from "./components/TopMenu";
 
 function App() {
   return (
-    <div className="App">
+    <div style={styles}>
       <TopMenu />
-      <Container text style={{marginTop: '1em', marginBottom: '1em'}}>
+      <Container>
         <Header as='h1' className="App-header">
           <p>
             Emergency Cooler
           </p>
         </Header>
       </Container>
-      <text className="App-body">
-        <p>
-          Hello, this is a website. It uses the React architecture.
-          We can do lots of things with this website. Let me know what you think.
-          miske@mit.edu
-        </p>
-      </text>
+      <Container>
+        <text className="App-body">
+          <p>
+            Hello, this is a website. It uses the React architecture.
+            We can do lots of things with this website. Let me know what you think.
+            miske@mit.edu
+          </p>
+        </text>
+      </Container>
     </div>
   );
 }
 
 export default App;
+
+const styles = {
+  marginLeft: '0em',
+  marginRight: '0em',
+  marginTop: '0em',
+  backgroundColor: 'ACDCCC'
+};

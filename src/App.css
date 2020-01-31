@@ -1,3 +1,7 @@
+/* MIT License */
+/* Main import classes */
+@import "https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css";
+/* Other CSS */
 .App {
   text-align: center;
 }
@@ -41,4 +45,22 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* For VTC specific CSS */
+.black.text {
+  font-size: 1rem;
+  color: #1e1e1e;
+}
+
+.large.text {
+  font-size: 1.5rem;
+}
+
+.large.black.text {
+  color: #1e1e1e;
+}
+
+.large.blue.text {
+  color: #007eb9;
 }
