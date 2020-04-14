@@ -1,15 +1,23 @@
 {
     "dev": {
         "awscloudformation": {
-            "AuthRoleName": "amplify-emer-cooler-web-app-dev-121706-authRole",
-            "UnauthRoleArn": "arn:aws:iam::713547874290:role/amplify-emer-cooler-web-app-dev-121706-unauthRole",
-            "AuthRoleArn": "arn:aws:iam::713547874290:role/amplify-emer-cooler-web-app-dev-121706-authRole",
-            "Region": "us-east-1",
-            "DeploymentBucketName": "amplify-emer-cooler-web-app-dev-121706-deployment",
-            "UnauthRoleName": "amplify-emer-cooler-web-app-dev-121706-unauthRole",
-            "StackName": "amplify-emer-cooler-web-app-dev-121706",
-            "StackId": "arn:aws:cloudformation:us-east-1:713547874290:stack/amplify-emer-cooler-web-app-dev-121706/82f29d10-444d-11ea-a8a9-0e1b8dfea4f7",
-            "AmplifyAppId": "d300v6wxk3w5b1"
+            "AuthRoleName": "amplify-vtcwebapp-dev-90845-authRole",
+            "UnauthRoleArn": "arn:aws:iam::390089750816:role/amplify-vtcwebapp-dev-90845-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::390089750816:role/amplify-vtcwebapp-dev-90845-authRole",
+            "Region": "us-east-2",
+            "DeploymentBucketName": "amplify-vtcwebapp-dev-90845-deployment",
+            "UnauthRoleName": "amplify-vtcwebapp-dev-90845-unauthRole",
+            "StackName": "amplify-vtcwebapp-dev-90845",
+            "StackId": "arn:aws:cloudformation:us-east-2:390089750816:stack/amplify-vtcwebapp-dev-90845/4ffa6990-7b2c-11ea-9fc5-02402ec64522",
+            "AmplifyAppId": "d1wdkovpxfl2y"
+        },
+        "categories": {
+            "hosting": {
+                "amplifyhosting": {
+                    "appId": "d1wdkovpxfl2y",
+                    "type": "manual"
+                }
+            }
         }
     }
 }

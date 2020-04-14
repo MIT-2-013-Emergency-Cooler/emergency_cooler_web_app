@@ -19,13 +19,13 @@ function Footer() {
 										</p>
 								</Menu.Item>
 								<Menu.Item>
-									<Link className="large blue text" to="/about" style={{marginRight: '1.5em', marginLeft: '2.5em'}}>
-										<p className="large blue text">About</p>
+									<Link className="large grey text" to="/about" style={{marginRight: '1.5em', marginLeft: '2.5em'}}>
+										<p className="large grey text">About</p>
 									</Link>
 								</Menu.Item>
 								<Menu.Item>
-									<Link className="large blue text" to="/contact" style={{marginRight: '1.5em', marginLeft: '2.5em'}}>
-										<p className="large blue text">Contact</p>
+									<Link className="large grey text" to="/contact" style={{marginRight: '1.5em', marginLeft: '2.5em'}}>
+										<p className="large grey text">Contact</p>
 									</Link>
 								</Menu.Item>
 						</Menu>
