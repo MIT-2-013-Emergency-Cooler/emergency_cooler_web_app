@@ -5,22 +5,14 @@ import TopMenu from "../components/TopMenu";
 import {Container, Card, Grid, Header} from "semantic-ui-react";
 import Footer from "../components/Footer";
 
-function Contact() {
+function Team() {
 	return(
 		<div>
 			<TopMenu/>
-
-
 			<Container text style={{marginTop: '5em', marginBottom: '1em'}}>
 				<Header as='h1' style={{textAlign: 'center'}}>
 					The VTC Team
 				</Header>
-				<p>
-					Contact the team behind the VTC.
-				</p>
-				<p>
-					<a href="mailto:vtc2020@mit.edu"> Send us an email</a>
-				</p>
 			</Container>
 			<Container style={{marginTop: '5em', marginBottom: '1em'}}>
 
@@ -63,9 +55,9 @@ function Contact() {
 						</Grid.Column>
 					</Grid.Row>
 				</Grid>
-				<Header as='h2'>Who generated this website?</Header>
+				<Header as='h2'>What do you do here? </Header>
 				<p>
-					Contact J. Miske at jacobmiske@gmail.com.
+					Contact J. Miske at jacobmiske@gmail.com
 				</p>
 			</Container>
 			<Footer/>
@@ -73,4 +65,4 @@ function Contact() {
 	);
 }
 
-export default Contact;
+export default Team;

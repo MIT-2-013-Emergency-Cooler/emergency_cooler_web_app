@@ -1,45 +1,52 @@
 import React from 'react';
 import { Container, Header, Grid, Rail, Segment } from 'semantic-ui-react';
 import './App.css';
+import VTCfigure from './assets/figNewDesign.png';
+import VTClogo from './assets/VTClogo-512x512.png';
 import TopMenu from "./components/TopMenu";
 import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <TopMenu />
+      <div className="ui divider"></div>
+      <Container>
+        <img class="ui centered medium image" src={VTClogo} alt="Logo of VTC"></img>
+      </Container>
+      <Container>
+        <img class="ui centered medium bordered image" src={VTCfigure} alt="Design screenshot of VTC"></img>
+      </Container>
 
       <Container style={linksStyle}>
         <Header  className="App-header">
           Emergency Cooler for Multiple Environments
         </Header>
       </Container>
+      <Container>
+        <Grid centered columns={3}>
+          <Grid.Column>
+            <Segment>
+              <Rail position='left'>
+                <Segment>
+                  The Variable Temperature Cryocooler group is working on a cryogenic freezer system that is capable of
+                  maintaining a storage volume of biomedical samples or other valuable research subjects between -20C and
+                  -150C using a specialized, free-piston Stirling cycle engine.
+                </Segment>
+              </Rail>
+              This Spring, we are working towards the development of a novel systems engineering innovation in temperature
+              modulation and learning a lot about engineering systems at cryogenic temperatures.
+              <Rail position='right'>
+                <Segment>
+                  This website uses the React architecture and AWS Amplify backend.
+                </Segment>
+              </Rail>
+            </Segment>
+          </Grid.Column>
+        </Grid>
+      </Container>
 
-
-      <Grid centered columns={3}>
-        <Grid.Column>
-          <Segment>
-            This Spring, we are looking towards the development of many novel system innovations in temperature
-            modulation and learning a lot about engineering systems at cryogenic temperatures.
-
-            <Rail position='left'>
-              <Segment>
-                The Variable Temperature Cryocooler group is working on a cryogenic freezer system that is capable of
-                maintaining a storage volume of biomedical samples or other valuable research subjects between -20C and
-                -150C using a specialized, free-piston Stirling cycle engine.
-              </Segment>
-            </Rail>
-
-            <Rail position='right'>
-              <Segment>
-                Hello, this is a website. It uses the React architecture and AWS Amplify backend.
-                We can do lots of things with this website. Let me know what you think.
-                miske@mit.edu
-              </Segment>
-            </Rail>
-          </Segment>
-        </Grid.Column>
-      </Grid>
+      <div className="ui divider"></div>
 
       <Grid>
         <Grid.Row>
@@ -50,25 +57,25 @@ function App() {
           </Container>
         </Grid.Row>
       </Grid>
-
       <Grid centered columns={3}>
         <Grid.Column>
           <Segment>
-            About Page:
             <Rail position='left'>
               <Segment>
-                Contact Page:
+                Contact Page:  <a href="/contact">here </a>
               </Segment>
             </Rail>
-
+            About Page:  <a href="/about">here </a>
             <Rail position='right'>
               <Segment>
-                Display Page:
+                Display Page: <a href="/display">here </a>
               </Segment>
             </Rail>
           </Segment>
         </Grid.Column>
       </Grid>
+
+      <div className="ui divider"></div>
 
       <Grid>
         <Grid.Row>
@@ -101,6 +108,7 @@ function App() {
           </Segment>
         </Grid.Column>
       </Grid>
+      <div className="ui divider"></div>
 
       <Footer />
     </div>

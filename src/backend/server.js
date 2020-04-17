@@ -18,7 +18,7 @@ wss.on('connection', function connection(ws) {
 				wait(1000);
 				console.log("hello");
 				wait(1000);
-
+				client.send("-20C");
 			}
 		});
 	});
