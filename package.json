@@ -13,7 +13,7 @@
     "react-scripts": "^3.4.1",
     "semantic-ui-react": "^0.88.2",
     "trim-right": "1.0.0",
-    "ws": "^7.2.3",
+    "ws": "^7.4.6",
     "prop-types": "latest"
   },
   "scripts": {
